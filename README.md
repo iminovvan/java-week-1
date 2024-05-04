@@ -6,7 +6,8 @@
 **Study plan:** <br>
 <br>
 **Week1**
-* solved ps
+* solved java problems
+* learned more about github
 * learned using git command line
 ```java
 public class Greating(){
