@@ -8,13 +8,16 @@ public class LogicalSequence {
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-
-        for(int i = 1; i <= n; i++){
-            System.out.println(i + " " + (int)Math.pow(i, 2) + " " + (int)Math.pow(i, 3));
-            System.out.println(i + " " + (int)(Math.pow(i, 2)+1) + " " + (int)(Math.pow(i, 3)+1));
+        int maxNumber = scanner.nextInt();
+        int number = 1;
+        while (number <= maxNumber) {
+            for (int i = 0; i < n; i++) {
+                if (number <= maxNumber) {
+                    System.out.print(number + " ");
+                }
+                number++;
+            }
+            System.out.println();
         }
-
-
     }
-
 }
