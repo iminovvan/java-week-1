@@ -26,6 +26,24 @@ CREATE TABLE ORDERS(
 	price DECIMAL(3, 2)
 );
 
+-- add primary keys to each table
+ALTER TABLE Customers
+ADD PRIMARY KEY (customer_id);
+
+ALTER TABLE Orders
+ADD PRIMARY KEY (order_id);
+
+ALTER TABLE Coffee
+ADD PRIMARY KEY (coffee_id);
+
+-- add foreign keys to each table
+ALTER TABLE Customers
+ADD FOREIGN KEY (order_id) REFERENCES Orders(order_id);
+
+ALTER TABLE Orders 
+ADD FOREIGN KEY (customer_id) REFERENCES Customers(customer_id),
+ADD FOREIGN KEY (coffee_id) REFERENCES Coffee(coffee_id);
+
 SELECT * FROM Customers;
 SELECT * FROM Coffee;
 SELECT * FROM Orders;
