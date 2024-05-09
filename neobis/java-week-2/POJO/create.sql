@@ -6,7 +6,7 @@ CREATE TABLE Customers(
 	first_name VARCHAR(30) NOT NULL,
 	second_name VARCHAR(30) NOT NULL,
 	age INT,
-	phone_number VARCHAR(15)
+	email VARCHAR(40)
 );
 
 CREATE TABLE Coffee(
