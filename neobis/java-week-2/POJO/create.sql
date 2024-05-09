@@ -3,7 +3,6 @@ USE CoffeeShop;
 
 CREATE TABLE Customers(
 	customer_id INT NOT NULL,
-	order_id INT NOT NULL,
 	first_name VARCHAR(30) NOT NULL,
 	second_name VARCHAR(30) NOT NULL,
 	age INT,
