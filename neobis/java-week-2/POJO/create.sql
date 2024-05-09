@@ -2,6 +2,17 @@ CREATE DATABASE CoffeeShop;
 USE CoffeeShop;
 
 CREATE TABLE Customers(
+	customer_id INT NOT NULL,
+	order_id INT NOT NULL,
+	first_name VARCHAR(250) NOT NULL,
+	second_name VARCHAR(250) NOT NULL,
+	age INT,
+	phone_number VARCHAR(400)
+);
+
+CREATE TABLE Coffee(
+	coffee_id INT NOT NULL,
+	name_coffee VARCHAR(50) NOT NULL,
 	customer_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	first_name VARCHAR(250) NOT NULL,
 	second_name VARCHAR(250) NOT NULL,
@@ -24,7 +35,6 @@ CREATE TABLE ORDERS(
 	name_order VARCHAR(25),
 	price DECIMAL(3, 2)
 );
-
 
 -- foreign keys to each table
 ALTER TABLE Customers
