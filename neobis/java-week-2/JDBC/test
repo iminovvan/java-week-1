@@ -1,0 +1,49 @@
+JDBC Testing
+
+* Connected CoffeeShop Database through JDBC to each class (CustomersJDBC, CoffeeJDBC, OrdersJDBC)
+* Executed the query using the following commands for each class(example on CustomerJDBC):
+    * addCustomer()
+    * selectCustomers()
+    * updateCustomer()
+    * deleteCustomer()
+    * deleteAllCustomers()
+
+* Tested the above methods in the main method
+*
+
+---------------------------- CustomersJDBC Test Output: ----------------
+Customer Jennie Kim added.
+Customer Rose Park added.
+Customer Table's content:
+1 Jennie Kim 28 jennie.kim@gmail.com
+2 Rose Park 27 rose.park@gmail.com
+Customer Nayeon Im added.
+Customer's data with ID 3 is updated.
+Customer with ID 1 is deleted.
+Customer Table's content:
+2 Rose Park 27 rose.park@gmail.com
+3 Nayeon Im 28 nayeon.im@gmail.com
+
+---------------------------- CoffeeJDBC Test Output: ----------------
+The coffee Americano is added.
+The coffee Cappuccino is added.
+The coffee Latte is added.
+Coffee Table's content:
+1 Americano 350 3.0 true
+2 Cappuccino 400 3.5 false
+3 Latte 450 4.5 false
+Coffee with ID 3 is updated.
+Coffee with ID 2 is deleted.
+Coffee Table's content:
+1 Americano 350 3.0 true
+3 Latte 400 4.0 false
+
+
+---------------------------- OrdersJDBC Test Output: ----------------
+
+Order for the customer with ID 1 added.
+Order for the customer with ID 2 added.
+Order for the customer with ID 3 added.
+Order with ID 2 is deleted.
+Order with ID 3 is deleted.
+
