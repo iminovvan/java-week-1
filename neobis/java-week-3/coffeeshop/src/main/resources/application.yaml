@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/coffeeshop2?useSSL=false
+    username: root
+    password: Nargiza2003.
+
+  jpa.hibernate.ddl_auto: create
