@@ -8,12 +8,12 @@
 **Week1**
 * solved java problems
 * learned more about github
-* learned using git command line
-  <br>
+* learned using git command line <br>
+<br>
 **Week2**
 * solved SQL problems
 * learned more about Database Design
-* learned using JDBC and Hibernate
+* learned using JDBC and Hibernate <br>
 <br>
 **Week3**
 * learned more about Spring framework
