@@ -9,6 +9,14 @@
 * solved java problems
 * learned more about github
 * learned using git command line
+**Week2**
+* solved SQL problems
+* learned more about Database Design
+* learned using JDBC and Hibernate
+**Week3**
+* learned more about Spring framework
+* created REST endpoints
+* learned to test using Postman
 ```java
 public class Greating(){
     public static void main(String[] args){
